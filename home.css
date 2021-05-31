@@ -1,0 +1,158 @@
+body{
+    text-align: center;
+    background-image: url(imagenes/fondo1.jpg);
+    background-position: 0 660px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ----------Empieza cabecera---------- */
+.lista{
+    background-color: white;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+
+.lista-item{
+    font-size: 22px;
+    margin: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.lista-item:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.lista-item-link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10% 30%;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    max-height: 90px;
+    max-width: 90px;
+}
+/* ----------Termina cabecera---------- */
+
+/* ----------Empieza slider---------- */
+.slider{
+    background-color: rgba(0, 0, 0, 0.89);
+    max-height: 500px;
+}
+
+.slider-img{
+    max-height: 500px;
+}
+/* ----------Termina slider---------- */
+
+/* ----------Empieza productos---------- */
+
+.titulo{
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.productos-link{
+    text-decoration: none;
+    color: black;
+}
+
+.productos{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.productos-interior{
+    display: flex;
+    font-size: 20px;
+
+}
+
+.producto-img{
+    max-width: 200px;
+    border: 1px solid gray;
+    margin: -10px 30px 30px 30px;
+}
+
+.producto-precio{
+    position: relative;
+    position: 200px;
+}
+/* ----------Termina productos---------- */
+
+/* ----------Empieza footer---------- */
+.footer{
+    background-color: white;
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo-a{
+    max-height: 150px;
+    border-right: 1px solid gray;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.footer-redes{
+    height: 150px;
+    flex-grow: 1;
+    border-right: 1px solid gray;
+    align-items: center;
+    margin: 0;
+}
+
+.footer-logo-b{
+    max-height: 70px;
+}
+
+.footer-redes-lista{
+    list-style: none;
+    margin: auto;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-redes-item{
+    margin: 0;
+}
+
+.footer-contacto{
+    flex-grow: 1;
+}
+
+.footer-contacto-lista{
+    list-style: none;
+}
+/* ----------Termina footer---------- */
+
+.final{
+    background-color: white;
+    padding: 0 30px 20px 0;
+    color: rgb(155, 155, 155);
+    text-align: end;
+}
