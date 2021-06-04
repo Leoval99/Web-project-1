@@ -20,7 +20,7 @@ body{
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px;
     height: 100px;
 }
 
@@ -50,38 +50,32 @@ body{
 }
 /* ----------Termina cabecera---------- */
 
-/* ----------Empieza slider---------- */
-.slider{
-    background-color: rgba(0, 0, 0, 0.89);
-    max-height: 500px;
-}
-
-.slider-img{
-    max-height: 500px;
-}
-/* ----------Termina slider---------- */
-
 /* ----------Empieza productos---------- */
-
-.titulo{
-    background-color: var(--blanco);
-    margin-top: 0;
-    margin-bottom: 20px;
-    padding: 20px 0;
+.productos-grilla{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: auto;
 }
 
 .productos{
     background-color: var(--blanco);
-    width: 800px;
-    height: 250px;
+    width: 250px;
+    height: 420px;
     margin: auto;
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-rows: 250px 1fr;
     margin-bottom: 20px;
 }
 
 .productos-interior{
     font-size: 15px;
+    margin: auto;
+}
+
+.productos-titulo{
+    font-size: 18px;
+    margin: 0;
 }
 
 .producto-img{
@@ -93,9 +87,6 @@ body{
 .producto-img:hover{
     max-width: 250px;
 }
-.productos-precio{
-    text-align: end;
-}
 /* ----------Termina productos---------- */
 
 /*---------- Empieza Whatsapp ----------*/
@@ -105,21 +96,6 @@ body{
     padding: 5px 10px;
     text-align: right;
     margin-top: -110px;
-    display: flex;
-}
-
-.whats-contacto{
-    background-color: var(--blanco);
-    margin: auto;
-    padding: 10px;
-    border-radius: 10px; 
-    position: relative;
-    left: 450px;
-    visibility: hidden;
-}
-
-.whats-contacto:hover{
-    visibility: visible;
 }
 
 .whats-logo{
@@ -134,8 +110,7 @@ body{
     grid-template-columns: 250px 1fr 1fr;
     height: 220px;
     align-items: center;
-    position: absolute;
-    width: 100%;
+
 }
 
 .footer-logo-a{
@@ -172,9 +147,4 @@ body{
     grid-column: 1/-1;
     text-align: right;
 }
-/* ----------Termina footer---------- */
-
-/* cambiar imagen por colores
-conseguir icono whats
-conseguir favico
-cambiar productos */
+/* ----------Termina footer---------- */   
